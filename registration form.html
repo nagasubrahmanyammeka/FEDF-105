@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+<style>
+</style>
+<title>Registration form</title>
+<body style="background-color:grey">
+<marquee><h1>Registration Form</h1></marquee>
+<form style="background-color:gold">
+<fieldset>
+<center><legend><strong>Personal Information<strong></legend></center>
+<label>Enter your name:</label>
+<input type="text" name="name"><br>
+<br>
+<label>Enter your date of birth:</label>
+<input type="date" name="dob"><br>
+<br>
+<label>Enter your Email</label>
+<input type="email" name="email"><br>
+<p>Address:</p>
+<textarea rows="4" cols="20"></textarea><br> 
+<br>
+<label>Enter password</label>
+<input type="password" name="password">
+<br>
+<br>
+<label>Confirm Password</label>
+<input type="password" name="name">
+<br>
+<br>
+<label>Select your Gender:-</label><br>
+<input type="radio" id="gender" name="gender">Male<br>
+<input type="radio" id="gender" name="gender">Female<br>
+<input type ="radio" id="gender" name="gender">Others<br>
+<label>Hobbies:-</label><br>
+<input type="checkbox" id="hobbies" name="playing games">Playing Games<br>
+<input type="checkbox" id="hobbies" name="Reading Books">Reading Books<br>
+<input type="checkbox" id="hobbies" name="Singing">Singing<br>
+<label>Coureses Learned  </label>
+<select>
+<option>Choose Coureses</option>
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="Java">Java</option>
+<option value="python">Python</option>
+</select><br>
+<br>
+<label>Insert Image For Profile:-</label><br>
+<label for="fileUpload">Choose an image:</label>
+<img><input type="file" id="fileUpload" accept="image/*"</img><br><br>
+<center><label>Click on image to submit</label><br><input type="image" value="Submit" src="newprofile.jpg" width="50px" height="50px" onclick="alert('Submitted')"</center>
+</fieldset>
+</form>
+</body>
+</html>
